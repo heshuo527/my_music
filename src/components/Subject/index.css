@@ -1,0 +1,171 @@
+.subject {
+    position: relative;
+    left: 2px;
+    width: 983px;
+    height: 1727px;
+    margin: 0 auto;
+    border: 1px solid #c0bbbb;
+}
+.subject-left {
+    position: absolute;
+    left: 1px;
+    float: left;
+    width: 727px;
+    border-right: 1px solid #c0bbbb;
+}
+.subject-right-side {
+    float: right;
+    width: 253px;
+}
+.subject-dian {
+    position: relative;
+    left: 10px;
+    top: 9px;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 4px solid #c20c0c;
+    border-radius: 20px;
+}
+.subject-duo {
+    float: right;
+    line-height: 35px;
+    margin-right: 20px;
+}
+.xia:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.subject-hd {
+    height: 35px;
+    width: 689px;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 2px solid #c20c0c;
+}
+.subject-hd h2 {
+    margin-left: 20px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+}
+.subject-hd li{
+    position: relative;
+    left: 30px;
+    float: left;
+    line-height: 35px;
+    color: #666666;
+}
+.subject-hd span {
+    margin: 0 12px;
+}
+.subject-imgs {
+    margin-left: 20px;
+}
+.subject-img1 {
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 10px 0 80px 25px;
+}
+.subject-img1 a {
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+.subject-right-side {
+    height: 185px;
+    border-bottom: 1px solid #bbb6b6;
+}
+.side-img {
+    position: relative;
+    left: 25px;
+    top: 25px;
+    border: 1px solid #c0bbbb;
+    width: 82px;
+    height: 82px;
+    line-height: 82px;
+}
+.side-func a {
+    position: relative;
+    top: -60px;
+    left: -10px;
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.side-vip {
+    width: 50px;
+    height: 14px;
+    border: 1px solid #bbb6b6;
+    border-radius: 10px;
+    margin-top: 3px;
+    background-color: #bbb6b6;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    font-size: 8px !important;
+}
+.side-vip:hover {
+    color: #fff;
+}
+.side-lv {
+    position: relative;
+    width: 34px;
+    height: 12px;
+    float: right;
+    left: 25px;
+    top: -30px;
+    text-align: center;
+    line-height: 12px;
+    border: 1px solid #bbb6b6;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #c0bbbb;
+}
+.side-qian {
+    position: relative;
+    width: 80px;
+    height: 28px;
+    float: right;
+    left: 120px;
+    top: 5px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #bbb6b6;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #3077d4;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer
+}
+.side-store {
+    position: relative;
+    top: 30px;
+    height: 40px;
+    margin-left: 30px;
+    
+}
+.side-store li {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #737373;
+}
+.side-store span {
+    margin: 0 20px;
+}
+.right-singer {
+    position: relative;
+    width: 210px;
+    top: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #bbb6b6;
+    font-size: 13px;
+}
+.singer-all {
+    float: right;
+    font-size: 13px;
+}

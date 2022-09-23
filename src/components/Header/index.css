@@ -1,0 +1,88 @@
+
+.header {
+    height: 70px;
+    background-color: #242424;
+}
+
+.header-hd {
+    position: relative;
+    float: left;
+    left: 210px;
+    top: 7px;
+    background-color: aqua;
+    color: #bdbdbd;
+}
+.herder-ht-a {
+    position: relative;
+    width: auto;
+    float: left;
+    left: 210px;
+    line-height: 70px;
+    padding: 0 19px;
+    text-align: center;
+    font-size: 14px;
+    color: #b7b7b7;
+}
+.herder-ht-a:hover {
+    background-color: black;
+    color: #fff;
+}
+.herder-deng {
+    position: relative;
+    right: 250px;
+    float: right;
+    line-height: 70px;
+    color: #999;
+}
+.herder-deng a:hover {
+    text-decoration: underline;
+    color: #878787;
+}
+.herder-hot {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 15px;
+    left: 205px;
+    top: 20px;
+    border-radius: 8px;
+    background-color: #c10c0c;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    font-size: 8px;
+}
+.herder-zuo {
+    position: relative;
+    float: right;
+    right: 270px;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 13px;
+    border: 1px solid #4f4f4f;
+    border-radius: 20px;
+    line-height: 33px;
+    color: #b7b7b7;
+    text-align: center;
+    font-size: 14px;
+}
+.herder-zuo:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.herder-search {
+    position: relative;
+    right: 270px;
+    float: right;
+    line-height: 69px;
+}
+.herder-search-inp {
+    width: 158px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #6e6e6e;
+    font-size: 12px;
+    text-align: center;
+}
+

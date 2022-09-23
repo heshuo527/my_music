@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+/* 清楚元素默认的内外边距 */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 让所有斜体  不倾斜 */
+em,i {
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 去掉列表前面的小点 */
+li {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* 图片没有边距  去掉图片底部得空白缝隙 */
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
-.App-link {
-  color: #61dafb;
+/* 让button按钮变成小手 */
+button {
+  cursor: pointer;
+}
+/* 取消链接的下划线 */
+a {
+  color: #666;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: #e33333;
+}
+
+button, 
+input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* 取消轮廓线 */
+  outline: none;
+}
+
+body {
+  background-color: #fff;
+  font: 12px/1.5 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hide, .none {
+  display: none;
+}
+
+/* 清除浮动 */
+.cleafix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.cleafix {
+  *ZOOM: 1
 }

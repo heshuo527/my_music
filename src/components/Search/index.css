@@ -1,0 +1,27 @@
+.search {
+    height: 34px;
+    background-color: #c20c0c;
+}
+.search-title {
+    width: 1000px;
+    height: 34px;
+    padding-left: 250px;
+    margin: 0 auto;
+}
+
+.search-title li {
+    float: left;
+    margin: auto 20px;
+    text-align: center;
+    line-height: 34px;
+}
+.search-list {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background-color: #c20c0c;
+    color: #fff;
+}
+.search-list:hover {
+    background-color: #9b0909;
+    color: #fff;
+}

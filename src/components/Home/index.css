@@ -1,0 +1,50 @@
+.home {
+    height: 285px;
+    margin: 0 auto;
+    background: url(http://p1.music.126.net/cju08xHyYUvr2dlJz24DUg==/109951167896889053.jpg?imageView&quality=89);
+    background-size: 6000px;
+}
+.home-w {
+    width: 982px;
+    height: 287px;
+    margin: 0 auto;
+}
+.home-centre {
+    float: left;
+    width: 730px;
+    height: 285px;
+}
+.home-img {
+    width: 730px;
+    height: 285px;
+}
+.home-app {
+    float: right;
+    width: 252px;
+    height: 285px;
+}
+.home-app img {
+    height: 285px;
+}
+.home-app-download {
+    position: relative;
+    top: -85px;
+    left: 18px;
+    padding: 18px 63px;
+    border: 1px solid #3077d4;
+    background-color: #3077d4;
+    color: #fff;
+    font-size: 18px;
+}
+.home-app-p {
+    position: relative;
+    top: -60px;
+    left: 19px;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+.home-app-download:hover {
+    background-color: #155dbb;
+    border: 1px solid #155dbb;
+    color: #fff;
+}
